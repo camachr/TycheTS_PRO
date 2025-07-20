@@ -1,0 +1,123 @@
+Folder map of /home/mevbot/TycheTS_PRO
+==================================================
+
+├── .git/
+├── broadcast/
+│   ├── DeployFactoryAndClone.sol/
+│   │   └── 1/
+│   ├── DeployImplementationAndFactory.sol/
+│   │   ├── 1/
+│   │   └── 31337/
+│   └── DeployMocks.s.sol/
+│       ├── 1/
+│       └── 31337/
+├── cache/
+│   ├── DeployFactoryAndClone.sol/
+│   │   └── 1/
+│   ├── DeployImplementationAndFactory.sol/
+│   │   ├── 1/
+│   │   └── 31337/
+│   └── DeployMocks.s.sol/
+│       ├── 1/
+│       └── 31337/
+├── contracts/
+│   ├── interfaces/
+│   │   ├── DataTypes.sol
+│   │   ├── IFlashLoanReceiver.sol
+│   │   ├── ILendingPool.sol
+│   │   ├── ILendingPoolAddressesProvider.sol
+│   │   └── IMinimalPoolProvider.sol
+│   ├── FlashLoanArbitrageFactory.sol
+│   ├── FlashLoanArbitrageOptimized.sol
+│   ├── IFlashLoanArbitrageOptimized.sol
+│   ├── MockAavePool.sol
+│   ├── MockERC20.sol
+│   └── MockPoolProvider.sol
+├── data/
+│   └── profit.json
+├── lib/
+├── node_modules/
+├── scripts/
+│   ├── createClone.ts
+│   ├── deployAllMainnet.sh
+│   ├── DeployImplementationAndFactory.sol
+│   ├── DeployMocks.s.sol
+│   ├── gasEstimator.ts
+│   ├── GrantExecutorRole.s.sol
+│   ├── grantRole.ts
+│   ├── setNewClone.sh
+│   ├── testExecuteArbitrum.ts
+│   ├── testExecuteMainnet.ts
+│   ├── testExecutePolygon.ts
+│   └── testInvalidOpportunities.ts
+├── src/
+│   ├── abi/
+│   │   ├── FlashLoanArbitrageOptimized.d.ts
+│   │   ├── FlashLoanArbitrageOptimized.json
+│   │   ├── FlashLoanArbitrageOptimized.json.bak
+│   │   └── IUniswapV2Router.json
+│   ├── config/
+│   │   ├── dexRegistry.ts
+│   │   ├── envUtils.ts
+│   │   ├── networks.ts
+│   │   ├── runnerConfig.ts
+│   │   └── volatility.ts
+│   ├── debug/
+│   │   └── simulateArbitrageCall.ts
+│   ├── services/
+│   │   ├── quotes/
+│   │   ├── arbitrageService.ts
+│   │   ├── dexService.ts
+│   │   ├── gasService.ts
+│   │   ├── kyberQuoteService.ts
+│   │   ├── liquidityService.ts
+│   │   ├── notificationService.ts
+│   │   ├── quoteEngine.ts
+│   │   ├── scoreEngine.ts
+│   │   ├── telegramService.test.ts
+│   │   ├── telegramService.ts
+│   │   ├── v2QuoteService.ts
+│   │   └── v3QuoteService.ts
+│   ├── utils/
+│   │   ├── contractLoader.ts
+│   │   ├── environmentUtils.ts
+│   │   ├── envValidator.ts
+│   │   ├── flashbotsUtils.ts
+│   │   ├── liquidityTracking.ts
+│   │   ├── logger.ts
+│   │   ├── normalizeDexKey.ts
+│   │   ├── opportunityMapper.ts
+│   │   ├── prepareDexes.ts
+│   │   ├── prepareTokens.ts
+│   │   ├── profitTracker.ts
+│   │   ├── safetyCheck.ts
+│   │   ├── slippageCalculator.ts
+│   │   ├── timeUtils.ts
+│   │   └── validateOpportunity.ts
+│   ├── executor.ts
+│   ├── runner.ts
+│   └── types.ts
+├── test/
+│   ├── customErrorCode.js
+│   ├── DeployMocks.t.sol
+│   ├── FlashLoanArbitrageOptimized.t.sol
+│   ├── InitializeClone.s.sol
+│   ├── testDexQuote.ts
+│   ├── testKyberQuote.ts
+│   ├── testQuoteV2.ts
+│   ├── testQuoteV3.ts
+│   ├── testSimulateArbitrgeCall.ts
+│   └── testV3QuoteDirect.ts
+├── .env
+├── .foldermapperignore
+├── .gitignore
+├── .gitmodules
+├── foundry.toml
+├── jest.config.mjs
+├── Makefile
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── remappings.txt
+├── tsconfig.json
+└── tychets_pro_structure_2025-07-19_07-04.txt

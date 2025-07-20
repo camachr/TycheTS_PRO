@@ -1,0 +1,6 @@
+node_modules/
+SCRIPTS_POR_REVISAR/
+lib/
+broadcast/
+cache/
+.git/

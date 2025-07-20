@@ -1,0 +1,43 @@
+{
+  "name": "tychets",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/bot/index.ts",
+    "test": "jest",
+    "start": "node dist/bot/index.js",
+    "debug:arb": "tsx src/debug/simulateArbitrageCall.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@balancer-labs/sdk": "^1.1.6",
+    "@flashbots/ethers-provider-bundle": "^0.4.4",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "async-mutex": "^0.5.0",
+    "axios": "^1.10.0",
+    "bignumber.js": "^9.3.0",
+    "chalk": "4",
+    "dotenv": "^16.5.0",
+    "ethers": "^5.7.2",
+    "undici": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.7",
+    "jest": "^29.7.0",
+    "json2ts": "^0.0.7",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.3.3"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
